@@ -1,0 +1,172 @@
+body {
+  background-image: url("https://images2.alphacoders.com/117/1178604.gif");
+  background-size: absolute;
+  background-repeat: no-repeat;
+  background-color: rgb(65, 25, 77);
+  height: 100%;
+  margin: 0;
+  padding: 0;
+
+}
+
+
+.sign-up:hover,
+.about:hover {
+  background-color: rgb(37, 37, 37);
+  text-decoration: none;
+}
+
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  top: 0;
+}
+
+
+.vr-headset,
+.sign-up,
+.about {
+  display: inline-block;
+  color: white;
+  background: none;
+  font-size: 20px;
+  padding: 15px;
+  border: 0px black solid;
+  border-radius: 40px;
+  text-decoration: none;
+}
+
+
+.vr-headset {
+  order: 1;
+  padding: 5px;
+}
+
+.about,
+.sign-up {
+  margin-top: 20px;
+}
+
+.about {
+  padding: 10px;
+  margin-left: auto;
+}
+
+.sign-up {
+  padding: 10px;
+  margin-left: 15px;
+  margin-right: 10px;
+}
+
+.title h1 {
+  margin: 0px;
+}
+
+.title {
+  display: block;
+  width: 590px;
+  color: whitesmoke;
+  font-size: 50px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+.desc {
+  p {
+    margin-bottom: 5px;
+  }
+
+  color: lightgray;
+  display: block;
+  width: 800px;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.skull {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 600px;
+}
+
+
+
+.VR-Poster1{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+
+}
+
+.our-goal{
+  color: whitesmoke;
+  border: 2px solid black;
+  border-radius: 60px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 800px;
+  display: block;
+  margin-left:auto;
+  margin-right: auto;
+  margin-bottom: 35px;
+  font-size: 20px;
+  text-align: center;
+  }
+
+.newsletter-signup{
+  display: block;
+  width: 600px;
+  margin-left: 780px;
+  margin-right: auto;
+  margin-bottom: 200px;
+
+
+}
+
+.join{
+  width: 150px;
+  height: 30px;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: purple;
+  padding: 5px;
+}
+
+
+.Email{
+  width: 200px;
+  height: 30px;
+  border: 2px solid black;
+  border-radius: 15px;
+  padding: 5px;
+
+}
+
+.copyright{
+
+    display: block;
+    margin-left: 780px;
+    margin-right: 780px;
+
+}

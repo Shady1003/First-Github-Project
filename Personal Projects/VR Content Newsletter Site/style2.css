@@ -1,0 +1,51 @@
+body{
+  background-color: rgb(65, 25, 77);
+}
+.vr-headset
+{
+  display: inline-block;
+  background: none;
+  border: 0px black solid;
+  border-radius: 40px;
+  text-decoration: none;
+  order: 1;
+  padding: 1px;
+  margin-top: 1px;
+}
+
+.sign-up{
+  display: flex;
+  justify-content: center;
+  h1{
+    margin-left: 100px;
+  
+  }
+  .wrapper{
+    background-color: whitesmoke;
+    padding: 30px;
+    border: 1px solid black;
+    border-radius: 30px;
+  }
+}
+
+.first-name, .last-name, .email, .age, .gender {
+  margin-bottom: 20px;
+  input{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 15px;
+  }
+}
+
+.submit{
+  background-color: rgb(245, 204, 210);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+  padding: 10px 30px 10px 30px;
+}
+
+.active{
+  color: red;
+}

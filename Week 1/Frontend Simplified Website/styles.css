@@ -1,0 +1,15 @@
+.navigation{
+    display: flex;
+    justify-content: space-around;
+}
+
+.list{
+
+    display: inline;
+
+  
+}
+
+.Frontend{
+    width: 270px;
+}
